@@ -107,7 +107,6 @@ public class BarView extends ScrollView implements Constants {
             LABEL_TEXT_COLOR = a.getString(R.styleable.BarView_labelTextColor);
             VALUE_TEXT_COLOR = a.getString(R.styleable.BarView_valueTextColor);
             RIPPLE_COLOUR = a.getString(R.styleable.BarView_rippleColor);
-
             if (LABEL_TEXT_COLOR == null)
                 LABEL_TEXT_COLOR = labelTextColor;
             if (VALUE_TEXT_COLOR == null)
@@ -116,7 +115,6 @@ public class BarView extends ScrollView implements Constants {
                 RIPPLE_COLOUR = rippleColor;
             a.recycle();
         }
-
     }
 
     public static String getRandomColor() {
