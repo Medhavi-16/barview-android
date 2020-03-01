@@ -44,8 +44,6 @@ class Bar extends View {
                 view.setBackground(stateListDrawable);
             }
         } catch (Exception e) {
-
-
         }
     }
 }
