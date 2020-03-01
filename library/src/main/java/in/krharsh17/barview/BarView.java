@@ -100,16 +100,10 @@ public class BarView extends ScrollView {
 
             final TypedArray a = context.obtainStyledAttributes(attrs,
                     R.styleable.BarView, 0, 0);
-
-
-
             VERTICAL_SPACING = a.getInteger(R.styleable.BarView_barGroupSpacing, VERTICAL_SPACING);
             BAR_HEIGHT = a.getInteger(R.styleable.BarView_barHeight, BAR_HEIGHT);
             LABEL_FONT_SIZE = a.getInteger(R.styleable.BarView_labelTextSize, LABEL_FONT_SIZE);
             VALUE_FONT_SIZE = a.getInteger(R.styleable.BarView_valueTextSize, VALUE_FONT_SIZE);
-
-
-
             LABEL_TEXT_COLOR = a.getString(R.styleable.BarView_labelTextColor);
             VALUE_TEXT_COLOR = a.getString(R.styleable.BarView_valueTextColor);
             RIPPLE_COLOUR = a.getString(R.styleable.BarView_rippleColor);
