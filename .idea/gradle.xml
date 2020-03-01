@@ -11,7 +11,7 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="resolveModulePerSourceSet" value="false" />
-      </GradleProjectSettings>
-    </option>
-  </component>
-</project>
+      </GradleProjectSettings>	 
+    </option>	   
+  </component>	
+</project> 
